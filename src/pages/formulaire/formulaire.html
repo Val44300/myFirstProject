@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Formulaire Jeu de Rôle</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <form>
+        <ion-item>
+          <ion-label>Nom du personnage</ion-label>
+          <ion-input type="text"  name="name"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Race</ion-label>
+          <ion-select>
+            <ion-option>Humain</ion-option>
+            <ion-option>Orc</ion-option>
+            <ion-option>Elf</ion-option>
+            <ion-option>Nain</ion-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Type</ion-label>
+          <ion-select>
+            <ion-option>Mage</ion-option>
+            <ion-option>Guerrier</ion-option>
+            <ion-option>Archer</ion-option>
+          </ion-select>
+        </ion-item>
+
+        <button ion-button type="submit" block>Valider</button>
+      </form>
+  
+</ion-content>

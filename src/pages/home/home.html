@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      myFirstProject
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home-content">
+
+  <p>
+    Bienvenue sur mon test IONIC !
+    <a href="http://ionicframework.com/docs/v2">DOCS</a>
+  </p>
+    
+
+  <button ion-button color="primary" [navPush]="starPage">Badge</button>
+  <button ion-button color="primary" [navPush]="listPage">List</button>
+  <button ion-button color="primary" [navPush]="formulairePage">Form</button>
+
+</ion-content>

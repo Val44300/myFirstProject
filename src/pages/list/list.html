@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <h1>Voyages</h1>
+    </ion-card-header>
+    <ion-list>
+
+      <button ion-item [navPush]="nassauPage">
+        <!--<img src="http://www.destinatii.info/wp-content/uploads/2014/07/Caraibe-Nassau.jpg"/>
+        <div class="card-title">Nassau</div>
+        <div class="card-subtitle">41 Listings</div>-->
+        Nassau
+      </button>
+
+      <button ion-item [navPush]="starPage">
+        Bali
+      </button>
+
+      <button ion-item [navPush]="starPage">
+        Paris
+      </button>
+
+      <button ion-item [navPush]="starPage">
+        Rome
+      </button>
+    </ion-list>
+  </ion-card>
+</ion-content>
